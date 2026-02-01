@@ -76,7 +76,7 @@ export class TargetRectEditor {
 
   private onPointerDown(p: Point) {
     // Check if Save button clicked
-    if (this.pointInRect(p, this.saveButton)) {
+    if (this.saveButton && this.pointInRect(p, this.saveButton)) {
       this.saveRects()
       return
     }
