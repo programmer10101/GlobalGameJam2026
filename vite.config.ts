@@ -1,5 +1,8 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+
+// Your repo name on GitHub
+const repoName = '/GlobalGameJam2026/'
 
 export default defineConfig({
-    base: '/GlobalGameJam2026'
+  base: repoName, 
 })

@@ -3,7 +3,7 @@ import type { RedactionMask } from "./types"
 export const masks: RedactionMask[] = [
   {
     prompt: "Remove all traces of Greg",
-    imageSrc: "/assets/documents/venison-pirates.png",
+    imageSrc: "assets/documents/venison-pirates.png",
     targetRects: [
   {
     "x": 0.1332630772178577,
@@ -27,7 +27,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Joan",
-    imageSrc: "/assets/documents/venison-pirates.png",
+    imageSrc: "assets/documents/venison-pirates.png",
     targetRects: [
   {
     "x": 0.3608928913584977,
@@ -57,7 +57,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Captain John",
-    imageSrc: "/assets/documents/venison-pirates.png",
+    imageSrc: "assets/documents/venison-pirates.png",
     targetRects: [
   {
     "x": 0.5674458708564858,
@@ -81,7 +81,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Johnny",
-    imageSrc: "/assets/documents/venison-pirates.png",
+    imageSrc: "assets/documents/venison-pirates.png",
     targetRects: [
   {
     "x": 0.84284984352047,
@@ -105,7 +105,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Gloot",
-    imageSrc: "/assets/documents/gloot.png",
+    imageSrc: "assets/documents/gloot.png",
     targetRects: [
   {
     "x": 0.1079708756466755,
@@ -129,7 +129,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Kevin",
-    imageSrc: "/assets/documents/gloot.png",
+    imageSrc: "assets/documents/gloot.png",
     targetRects: [
   {
     "x": 0.3496519128824167,
@@ -153,7 +153,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Klootz",
-    imageSrc: "/assets/documents/gloot.png",
+    imageSrc: "assets/documents/gloot.png",
     targetRects: [
   {
     "x": 0.5632305039279555,
@@ -177,7 +177,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Yo'Pil",
-    imageSrc: "/assets/documents/gloot.png",
+    imageSrc: "assets/documents/gloot.png",
     targetRects: [
   {
     "x": 0.8667369227821421,
@@ -207,7 +207,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Dr. Gwen",
-    imageSrc: "/assets/documents/science.png",
+    imageSrc: "assets/documents/science.png",
     targetRects: [
   {
     "x": 0.12764258797981723,
@@ -231,7 +231,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Dr. Schmorgusboard",
-    imageSrc: "/assets/documents/science.png",
+    imageSrc: "assets/documents/science.png",
     targetRects: [
   {
     "x": 0.35667752442996736,
@@ -261,7 +261,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Dr. Handd",
-    imageSrc: "/assets/documents/science.png",
+    imageSrc: "assets/documents/science.png",
     targetRects: [
   {
     "x": 0.5829022162610972,
@@ -285,7 +285,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Bubble Burger",
-    imageSrc: "/assets/documents/science.png",
+    imageSrc: "assets/documents/science.png",
     targetRects: [
   {
     "x": 0.06160183943284143,
@@ -297,7 +297,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Billy the Snacker",
-    imageSrc: "/assets/documents/banditos.png",
+    imageSrc: "assets/documents/banditos.png",
     targetRects: [
   {
     "x": -0.30372996103979066,
@@ -327,7 +327,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Gorgonzola",
-    imageSrc: "/assets/documents/banditos.png",
+    imageSrc: "assets/documents/banditos.png",
     targetRects: [
   {
     "x": 0.32154946669221424,
@@ -351,7 +351,7 @@ export const masks: RedactionMask[] = [
   },
   {
     prompt: "Remove all traces of Roger Cheddar Fingers",
-    imageSrc: "/assets/documents/banditos.png",
+    imageSrc: "assets/documents/banditos.png",
     targetRects: [
   {
     "x": 0.5744714824040364,
