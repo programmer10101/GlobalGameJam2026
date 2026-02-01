@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>REDACT-TED</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #111;
+        touch-action: none;
+      }
+
+      #game-root {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+
+      canvas {
+        position: absolute;
+        inset: 0;
+      }
+    </style>
+    <script type="module" crossorigin src="/GlobalGameJam2026/assets/index-COYClz1a.js"></script>
+  </head>
+  <body>
+    <div id="game-root">
+      <canvas id="doc"></canvas>
+      <canvas id="redaction"></canvas>
+      <canvas id="ui"></canvas>
+    </div>
+  </body>
+</html>
