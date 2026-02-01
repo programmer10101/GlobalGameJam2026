@@ -12,7 +12,7 @@ new Input(
   target,
   (p) => this.sceneManager.onPointerDown(p),
   (p) => this.sceneManager.onPointerMove(p),
-  (p) => this.sceneManager.onPointerUp({ x: 0, y: 0 })
+  (_p) => this.sceneManager.onPointerUp({ x: 0, y: 0 })
 )
 
   }

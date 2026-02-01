@@ -2,7 +2,6 @@ import { CanvasLayer } from "./rendering/CanvasLayer"
 import { Game } from "./game/Game"
 import { MenuScene } from "./game/MenuScene"
 import { GameScene } from "./game/GameScene"
-import type { RedactionMask } from "./data/types"
 import { masks } from "./data/masks" // move mask data to separate file
 
 // --- Canvas Layers ---

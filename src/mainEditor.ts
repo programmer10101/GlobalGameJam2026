@@ -4,4 +4,4 @@ import { TargetRectEditor } from "./editor/TargetRectEditor"
 // const docPath = "src/assets/documents/banditos.png"
 // const docPath = "src/assets/documents/gloot.png"
 const docPath = "src/assets/documents/science.png"
-const editor = new TargetRectEditor("docCanvas", docPath)
+new TargetRectEditor("docCanvas", docPath)
