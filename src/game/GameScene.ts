@@ -117,15 +117,15 @@ export class GameScene implements Scene {
     if (!p) return;
     switch (this.phase) {
       case RoundPhase.Prompt:
-        if (this.pointInRect(p, this.readyButton)) this.startRedaction()
+        if (this.readyButton && this.pointInRect(p, this.readyButton)) this.startRedaction()
         break
       case RoundPhase.Redacting:
-        if (this.pointInRect(p, this.doneButton)) this.finishRound()
+        if (this.doneButton && this.pointInRect(p, this.doneButton)) this.finishRound()
         else this.startStroke(p)
         break
       case RoundPhase.Scoring:
-        if (this.pointInRect(p, this.continueButton)) this.loadNextMask()
-        else if (this.pointInRect(p, this.exitButton)) this.exitGame()
+        if (this.continueButton && this.pointInRect(p, this.continueButton)) this.loadNextMask()
+        else if (this.exitButton && this.pointInRect(p, this.exitButton)) this.exitGame()
         break
     }
   }
@@ -357,6 +357,8 @@ export class GameScene implements Scene {
   }
 
   private pointInRect(p: Point, r: UIButton) {
+    if (!p || !("x" in p)) return false;
+    if (!r) return false;
     return p.x >= r.x && p.x <= r.x + r.width && p.y >= r.y && p.y <= r.y + r.height
   }
 
