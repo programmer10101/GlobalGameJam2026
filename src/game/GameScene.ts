@@ -114,6 +114,7 @@ export class GameScene implements Scene {
      Input
   ======================= */
   onPointerDown(p: Point) {
+    if (!p) return;
     switch (this.phase) {
       case RoundPhase.Prompt:
         if (this.pointInRect(p, this.readyButton)) this.startRedaction()
